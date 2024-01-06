@@ -1,10 +1,12 @@
 ##  map()
 각 요소에 공통된 작업 수행
+
 반환값의 자료형을 변환해야 함
-items = [1, 2, 3, 4, 5]
+
+```items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
 
-squared = [x**2 for x in items]
+squared = [x**2 for x in items]```
 
 
 
